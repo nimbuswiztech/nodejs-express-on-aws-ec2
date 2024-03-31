@@ -16,19 +16,22 @@ Now we need to install nvm (node version manager) by typing the following at the
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
 
-## Now you need to activate nvm by using the command:
-
+## Now you need to activate nvm by using the command
 ```
 . ~/.nvm/nvm.sh
+```
 
 ## By using nvm you have to install Node.js. Put the below command in the command line:
 ```
 nvm install node
+```
 
-Check the nvm and Node.js version by using the commands:
+## Check the nvm and Node.js version by using the commands:
 ```
 nvm --version
+```
 
 ## Clone the repository from GitHub
 After installing Git, now we will clone the repository of the Node.js application.
@@ -36,18 +39,20 @@ After installing Git, now we will clone the repository of the Node.js applicatio
 ```
 git clone <repository name>
 cd nodejs-on-ec2
+```
 
 ## Install all the required dependencies
 
 To install the dependencies use the below command:
 ```
 npm install
+```
 
 ## Run the application
 To run the application put the below command:
 ```
 node app.js
-
+```
 
 
 
